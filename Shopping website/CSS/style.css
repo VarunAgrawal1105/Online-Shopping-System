@@ -50,21 +50,25 @@ body{
      width: 15%;
      float: left;
 }
+/*
 #nav-2 #section-4{
      width: 10%;
      float: left;
      padding-top: 23px;
      padding-left: 20px;
 }
+*/
 #nav-2 #section-5{
-     width: 40%;
+     width: 50%;
      float: left;
      padding-top: 20px;
+     padding-left: 40px;
 }
 #nav-2 #section-5 #search-1{
      width: 70%;
      height: 30px;
      border-radius: 3px;
+     background-image: url();
 }
 #nav-2 #section-5 #search-1:placeholder-shown{
      padding-left: 25px;
@@ -221,7 +225,7 @@ body{
 .container{
      position: relative;
      margin: 20px auto;
-     width: 700px;
+     width: 1020px;
      height: 100px;
      padding-bottom: 40%;
      background-color: black;
@@ -262,7 +266,7 @@ label i{
      transform: translate(-50%,-50%);
 }
 .fa{
-     font-size: 1000px;;
+     font-size: 100px;;
 }
 .prev:hover,.next:hover{
      background-color: rgba(88, 88, 88, .8);
@@ -608,10 +612,44 @@ label i{
      width: 350px;
 }
 
+#footer-1{
+     height: 50px;
+     background-color: rgba(0,0,0,.5);
+     margin-top: 3300px;
+}
+#footer-1 a{
+     color: white;
+     text-decoration: none;
+     text-align: center;
+     margin-top: 25px;
+     font-size: 20px;
+}
+#footer-1 a p{
+     padding-top: 12px;
+}
+#footer-1:hover{
+     background-color: rgba(0,0,0,.7);
+}
+#foot-1{
+     height: 200px;
+     background-color: rgba(0,0,0,.8);
+}
+#footer-2{
+     padding-top: 15px;
+     padding-left: 100px;
+     color: white;
+     column-count: 4;
+}
+#footer-2 a{
+     color: white;
+     text-decoration: none;
+}
 
 /****************Clothing****************/
 
-
+#bg-1{
+     background: rgba(0,0,0,.1);
+}
 #clothing-body-1{
      margin-top: -55px;
 /*     margin-bottom: 50px;*/
@@ -619,7 +657,6 @@ label i{
 #clothing{     
      width: 90%;
      height: 500px;
-/*     margin-botm: 50px;*/
      margin: auto;
      margin-top: 50px;
      background-color: white;
@@ -679,4 +716,53 @@ label i{
      top: 700px;
      left: 950px;
      height: 400px;
+}
+#cloth-1-1-2{
+     position: absolute;
+     top: 1200px;
+     left: 950px;
+     height: 400px;
+     width: 290px;
+}
+#cloth-1-1{
+     margin-left: -100px;
+     margin-top: 50px;
+}
+.footer-3{
+     height: 50px;
+     background-color: rgba(0,0,0,.5);
+     position: absolute;
+     top: 1700px;
+     width: 100%;
+}
+.footer-3 a{
+     color: white;
+     text-decoration: none;
+     text-align: center;
+     margin-top: 10px;
+     font-size: 20px;
+     
+}
+.footer-3:hover{
+     background-color: rgba(0,0,0,.7);
+}
+#foot-2{
+     height: 200px;
+     background-color: rgba(0,0,0,.8);
+     width: 100%;
+     position: absolute;
+     top: 1750px;
+}
+.footer-4{
+     padding-top: 15px;
+     padding-left: 100px;
+     color: white;
+     column-count: 4;
+}
+.footer-4 a{
+     color: white;
+     text-decoration: none;
+}
+.footer-4 a:hover{
+     text-decoration: underline;
 }
